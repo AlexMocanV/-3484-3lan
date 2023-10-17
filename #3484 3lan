@@ -1,0 +1,20 @@
+#include <iostream>
+#include <fstream>
+#include <cmath>
+using namespace std;
+
+ifstream fin("3lan.in");
+ofstream fout("3lan.out");
+
+
+long long x[1001],N,y,z,i,s,j;
+int main()
+{
+    fin>>N;
+    for(i=1;i<=N;i++)
+        fin>>y;
+        
+        fout<<7*N*(N-1)/2;
+
+    return 0;
+}
